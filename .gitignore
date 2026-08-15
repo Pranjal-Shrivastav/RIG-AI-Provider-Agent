@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Runtime logs
+logs/
+*.log
+
+# Local RIG node identity
+.rig_node_id
+
+# IDE files
+.vscode/
+.idea/
+
+# Build / distribution files
+build/
+dist/
+*.egg-info/
